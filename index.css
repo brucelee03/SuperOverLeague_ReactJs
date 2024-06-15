@@ -1,0 +1,45 @@
+/* Write your code here. */
+@media (max-width: 576px) {
+  .bg-container {
+    background-color: #0f172a;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 23px;
+  }
+  .img {
+    height: 110px;
+    width: 115px;
+  }
+}
+@media (min-width: 767px) {
+  .bg-container {
+    background-color: #0f172a;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 54px;
+  }
+  .img {
+    height: 280px;
+    width: 290px;
+  }
+}
